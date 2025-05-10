@@ -1273,6 +1273,31 @@ footer {
   transition: all 0.6s ease-in-out;
   z-index: 2;
 }
+.boton-certificados {
+  position: absolute;
+  bottom: 100px;
+  right: 250px;
+}
+
+.boton-certificados a {
+  padding: 15px 30px;
+  background: #202630;
+  color: white;
+
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+  font-family:Arial, Helvetica, sans-serif;
+  border:1px solid #58a6ff;
+  border-radius: 30px;
+}
+.boton-certificados a:hover {
+  background: linear-gradient(135deg, #1a2a3a, #4e9fff); 
+  transform: scale(1.05); 
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); 
+}
+
+
 
 #active:checked ~ .wrapper {
   right: 0;

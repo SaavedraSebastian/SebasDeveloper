@@ -65,9 +65,11 @@ body {
 
 .skill-icon {
   font-size: 36px;
-  color: #58a6ff; 
+
   margin-bottom: 10px;
   transition: color 0.3s ease;
+   width: 40px;
+  height: 40px;
 }
 
 .skill-card:hover .skill-icon {
